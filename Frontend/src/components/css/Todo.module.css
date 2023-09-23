@@ -1,0 +1,83 @@
+.FirstBox {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 100%;
+  /* background-color: ; */
+  /* background-image: linear-gradient(to bottom right, #57976d, yellow); */
+
+  text-align: center;
+  padding-bottom: 30px;
+}
+.FirstBox > textarea {
+  width: 30%;
+  /* height: 30px; */
+  border-radius: 5px;
+  border: none;
+  color: #2c2a2a;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+.btn {
+  background-color: black;
+  color: whitesmoke;
+  width: 150px;
+  height: 33px;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(65, 219, 65);
+  color: black;
+  width: 150px;
+  height: 33px;
+  font-size: 18px;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+
+.table > div {
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* background-color: #6c9ea8; */
+  background-image: linear-gradient(to bottom right, rgb(241, 37, 37), yellow);
+
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.table > div:hover {
+  background-image: linear-gradient(to bottom right, yellow, red);
+}
+.deltebtn {
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.deltebtn:hover {
+  color: white;
+  font-size: 18px;
+  background-color: red;
+}
+.todotext {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* // media query */
+@media all and (min-width: 381px) and (max-width: 700px) {
+}
+
+/* small */
+@media all and (min-width: 50px) and (max-width: 420px) {
+}
